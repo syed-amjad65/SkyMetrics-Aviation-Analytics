@@ -1,139 +1,121 @@
-# SkyMetrics™ — Enterprise Airline Analytics & Workforce Intelligence Platform
+# SkyMetrics™ — Enterprise Airline Analytics Platform (2026 Edition)
 
-SkyMetrics™ is a production-grade aviation analytics and enterprise decision intelligence framework designed to support commercial, operational, engineering, and workforce planning functions at global airline scale.
+SkyMetrics is a **production-grade airline analytics and decision intelligence platform**, designed to support **commercial, operational, engineering, digital, and workforce planning functions** at global airline scale.  
 
-This repository demonstrates how data, analytics, and domain expertise combine to enable smarter, faster, and strategically aligned decisions across airline ecosystems.
-
----
-
-# ✈️ Why SkyMetrics™
-
-Airlines do not fail due to lack of data.  
-They struggle due to fragmented systems, reactive decisions, and disconnected operational intelligence.
-
-SkyMetrics™ addresses this by:
-
-- Integrating commercial, operational, engineering, and workforce data
-- Converting raw operational inputs into decision-ready intelligence
-- Supporting both tactical execution and executive-level planning
-- Enabling scalable workforce and fleet-aligned forecasting
-
-Designed for digitally native airlines operating in high-growth environments.
+This repository demonstrates how **data, advanced analytics, and real-world domain expertise** come together to enable **smarter, faster, and more profitable decisions** across airline operations.
 
 ---
 
-# 🧠 Core Enterprise Domains
+## 🌟 Strategic Differentiators
 
-## 1️⃣ Digital Analytics & Customer Journey Intelligence
-
-- Event taxonomy & validation frameworks  
-- Adobe CJA-aligned journey analytics logic  
-- Funnel, friction, and conversion optimization  
-- Omnichannel performance measurement  
+- **Integrated Workforce Planning & Resource Intelligence** — forecast crew, engineering, and ground operations aligned with fleet growth and regulatory compliance.
+- **Enterprise-level analytics** — scenario modeling, cost optimization, and KPI dashboards.
+- **System thinking, not just dashboards** — modules connected from data ingestion to executive decision-making.
+- **Scalable & predictive** — designed for **Riyadh Air Flight Operations & OCC**, Emirates Engineering, and other airline environments.
 
 ---
 
-## 2️⃣ Cargo Revenue Management
+## 🧠 Core Modules & Domains
 
-- Yield and capacity analytics  
-- Route-level performance modeling  
-- Cargo SLA monitoring & revenue leakage detection  
-- Demand forecasting and scenario simulation  
+### 1️⃣ Digital Analytics & Customer Journey Intelligence
+- Event taxonomy & validation
+- Adobe Customer Journey Analytics (CJA)
+- Funnel, friction, and conversion analytics
+- Omnichannel experience measurement
 
----
+### 2️⃣ Cargo Revenue Management
+- Yield, price, and capacity analytics
+- Route-level performance
+- SLA & revenue leakage insights
+- Demand forecasting & simulation
 
-## 3️⃣ Passenger Inventory & Network Analytics
+### 3️⃣ Passenger Inventory & Network Analytics
+- Demand forecasting
+- Load factor, RASK, and yield optimization
+- Booking behavior analysis
+- Route performance & trend insights
 
-- Demand forecasting models  
-- Load factor, RASK, and yield optimization  
-- Booking behavior intelligence  
-- Route performance & trend evaluation  
+### 4️⃣ Operations & Engineering Intelligence
+- AOG prediction & recovery
+- Maintenance performance analytics
+- OCC-ready decision dashboards
+- Disruption impact & recovery measurement
 
----
-
-## 4️⃣ Operations & Engineering Intelligence
-
-- AOG prediction & disruption intelligence  
-- Maintenance performance analytics  
-- OCC-ready operational dashboards  
-- Recovery efficiency measurement  
-
----
-
-## 5️⃣ Enterprise Resource Planning & Workforce Intelligence ⭐
-
-A strategic manpower planning framework aligned with fleet growth and operational scalability.
-
-Includes:
-
-- Fleet induction impact modeling  
-- Crew-to-aircraft ratio analysis  
-- Engineering workforce scaling  
-- Cost & FTE forecasting  
-- Multi-year hiring ramp simulations  
-- Risk & scenario intelligence modeling  
-
-Designed to support:
-
-- Flight Operations leadership  
-- Engineering & Maintenance planning  
-- OCC manpower readiness  
-- Finance & budget forecasting  
-- Executive resource allocation decisions  
-
-This module reflects the workforce planning requirements of high-growth airlines such as Riyadh Air.
+### 5️⃣ Enterprise Workforce Planning & Resource Intelligence ⭐ NEW
+- Flight Operations manpower forecasting
+- Crew-to-aircraft ratio modeling
+- Engineering workforce scaling
+- Ground operations resource allocation
+- Cost & budget forecasting
+- Scenario & risk modeling
+- Executive dashboards integration
 
 ---
 
-# 🎯 Who This Platform Serves
+## 💾 Data Models
 
-SkyMetrics™ demonstrates enterprise-level thinking aligned with:
-
-- Airline Flight Operations & OCC
-- Engineering & MRO Analytics Teams
-- Revenue & Network Planning
-- Digital Experience & Customer Intelligence
-- Workforce Planning & Resource Strategy
-- Enterprise Analytics Leadership
-
-This repository maps analytics directly to business-critical airline functions — not just dashboards.
+- `Fleet_Master.csv` — Fleet type, count, delivery schedule  
+- `Crew_Ratio_Model.csv` — Pilots, cabin crew per aircraft  
+- `Engineer_to_Aircraft_Model.csv` — Maintenance engineer allocation  
+- `Cost_Per_FTE_Model.csv` — Workforce cost modeling  
 
 ---
 
-# 🛠 Architecture Overview
+## 🐍 Analytics Code
 
-SkyMetrics™ follows a layered enterprise structure:
-
-**1. Data Models Layer**  
-Structured fleet, crew, engineering, and commercial data foundations.
-
-**2. Analytical Modeling Layer**  
-Forecasting, optimization, risk modeling, and performance analytics.
-
-**3. Dashboard & Decision Layer**  
-Role-based executive intelligence panels.
-
-**4. AI & Automation Layer**  
-Predictive and prescriptive models supporting proactive decision-making.
+- `workforce_forecasting.py` — Predictive modeling for manpower & resource planning  
+- `fleet_growth_simulation.py` — Fleet expansion impact analysis  
+- `crew_requirement_model.py` — Crew-to-aircraft scenario modeling  
+- `cost_impact_analysis.py` — Cost & budget simulation  
 
 ---
 
-# 🧠 About the Author
+## 📊 Dashboards
 
-Built by an aviation and analytics professional with decades of experience across:
-
-- Airline operations and engineering
-- Enterprise data governance
-- Passenger journey analytics
-- Revenue and workforce optimization
-- Strategic operational planning
-
-This platform reflects operational reality — not academic theory.
+- **Executive Workforce Cockpit** — Enterprise KPI overview  
+- **Fleet Growth Scenario Model** — Forecast impact of fleet expansion  
+- **OCC Control Tower** — Flight operations real-time monitoring  
+- **Manpower Risk Heatmap** — Resource allocation & risk visualization  
+- **Cost Impact Forecast Panel** — Budget & scenario tracking  
 
 ---
 
-# 🚀 Development Status
+## 🏗 Architecture
 
-SkyMetrics™ is in active development.
+- Full enterprise architecture connecting **data → analytics → dashboards → strategic modules**  
+- Architecture diagram: `docs/Architecture_Diagram.md` + `docs/Architecture_Diagram.png`  
 
-This repository demonstrates enterprise-ready architecture, strategic alignment, and scalable analytics capability designed for next-generation airline environments.
+---
+
+## 🚀 Ready for Airlines Recruitment
+
+This repository **demonstrates capability for senior roles**:
+
+- **Manager — Resource Planning & Analysis**  
+- **Flight Operations Engineer / Analyst**  
+- **Engineering Analytics / Performance Analytics**  
+
+Recruiters instantly see:
+
+✔ Enterprise thinking  
+✔ Operational + commercial + digital integration  
+✔ Predictive modeling & scenario simulation  
+✔ Executive-level dashboards  
+✔ Data-driven workforce planning  
+
+---
+
+## 🧠 About the Author
+
+Built by a **Senior Aviation Engineer & Data Scientist** with decades of experience in:
+
+- Emirates Engineering & Airline Operations  
+- Predictive & Prescriptive Analytics  
+- Revenue, Network, and Cargo Optimization  
+- Workforce Planning, Engineering, and OCC Analytics  
+
+---
+
+## 📌 Status
+
+SkyMetrics is **active development-ready** — a full-scale **enterprise analytics platform** ready for **real airline adoption**.
